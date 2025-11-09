@@ -1,0 +1,23 @@
+{
+  "d_model": 128,
+  "num_layers": 2,
+  "num_heads": 4,
+  "d_ff": 512,
+  "max_len": 128,
+  "dropout": 0.1,
+  "batch_size": 64,
+  "lr": 0.0003,
+  "num_epochs": 20,
+  "save_dir": "results/fast_run",
+  "use_learned_pos": false,
+  "tokenizer": "/data/WangRuilin/transformer/opus_mt_en_de_tokenizer",
+  "data_dir": "/data/WangRuilin/transformer/IWSLT2017",
+  "optimizer": "adamw",
+  "lr_scheduler": "cosine",
+  "warmup_steps": 2000,
+  "compute_bleu": false,
+  "num_params": 23294581,
+  "vocab_size": 58101,
+  "task_type": "seq2seq",
+  "dataset": "iwslt2017_local"
+}
